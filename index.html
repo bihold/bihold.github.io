@@ -6,43 +6,54 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Bihold Studio</title>
+
+  <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 	<div class="wrapper">
-    <header>
-      <h1>Bihold Studio</h1>
+    <header class="header">
+      <h1 class="header-title">Bihold Studio</h1>
     </header>
 
-    <main>
-      <section>
-        <p>Somos un grupo de profesionales apasionados por crear, comunicar y emplear la tecnología para interacturar con las personas.</p>
+    <main class="main">
+      <section class="cta">
+        <p class="cta-header">Somos un grupo de profesionales apasionados por crear, comunicar y emplear la tecnología para interacturar con las personas.</p>
 
-        <p>Estamos listos para solucionar problemas o necesidades a través de productos interactivos como aplicaciones, sitios web y softwares para diferentes dispositivos. Iniciemos un proyecto</p>
+        <p class="cta-text">Estamos listos para solucionar problemas o necesidades a través de productos interactivos como aplicaciones, sitios web y softwares para diferentes dispositivos. Iniciemos un proyecto</p>
 
-        <a href="#">Iniciemos un proyecto</a>
+        <a class="cta-button" href="#">Iniciemos un proyecto</a>
       </section>
 
-      <section>
-        <h2>Contácto</h2>
+      <section class="contact">
+        <h2 class="contact-title">Contácto</h2>
 
-        <p>Cuéntanos sobre tu proyecto, solicita información o simplemente manda un saludo. Responderemos tu mensaje lo más pronto.</p>
+        <p class="contact-text">Cuéntanos sobre tu proyecto, solicita información o simplemente manda un saludo. Responderemos tu mensaje lo más pronto.</p>
+
+        <form class="form">
+          <div class="form-fields">
+            <div class="form-topGroup">
+              <div class="form-group">
+                <label class="form-label">Nombre</label>
+                <input class="form-input" type="text" name="name">
+              </div>
+
+              <div class="form-group">
+                <label class="form-label">Correo electrónico</label>
+                <input class="form-input" type="email" name="email">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label">Mensaje</label>
+              <textarea class="form-textarea"></textarea>
+            </div>
+          </div>
+
+          <div class="form-buttonGroup">
+            <button class="form-button">Enviar</button>
+          </div>
+        </form>
       </section>
-
-      <form>
-        <div>
-          <label>Nombre</label>
-          <input type="text" name="name">
-        </div>
-        <div>
-          <label>Correo</label>
-          <input type="email" name="email">
-        </div>
-        <div>
-          <label>Mensaje</label>
-          <textarea></textarea>
-        </div>
-        <button>Enviar</button>
-      </form>
     </main>
 	</div>
 </body>
