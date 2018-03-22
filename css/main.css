@@ -130,4 +130,5 @@ button, input, textarea {
   background: none;
   border: 2px solid  #17ffff;
   padding: .8em 1.5em;
+  cursor: pointer;
 }
