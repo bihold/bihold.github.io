@@ -25,6 +25,11 @@ button, input, textarea {
   text-align: center;
 }
 
+.header-homeLink {
+  display: inline-block;
+  margin: 1.5rem 0;
+}
+
 .cta {
   background-color: #fff;
   padding: 3rem 0;
