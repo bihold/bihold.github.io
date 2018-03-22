@@ -132,3 +132,15 @@ button, input, textarea {
   padding: .8em 1.5em;
   cursor: pointer;
 }
+
+@media (max-width: 34em) {
+  .form-topGroup {
+    display: block;
+    margin-bottom: 1.5rem;
+  }
+
+  .form-topGroup .form-group {
+    width: 100%;
+    margin-bottom: 1.5rem;
+  }
+}
