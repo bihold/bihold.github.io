@@ -104,7 +104,7 @@ button, input, textarea {
   position: absolute;
   top: 5px;
   left: .8rem;
-  color: #5f7c8a;
+  color: #fff;
   font-size: .8em;
   line-height: 1.5;
 }
@@ -112,8 +112,10 @@ button, input, textarea {
 .form-input,
 .form-textarea {
   padding: 1.8rem .8rem .5rem;
-  border: 0;
+  border: 1px solid #fff;
   width: 100%;
+  background-color: transparent;
+  color: inherit;
 }
 
 .form-input:focus,
@@ -131,10 +133,11 @@ button, input, textarea {
 }
 
 .form-button {
-  color: #17ffff;
-  background: none;
-  border: 2px solid  #17ffff;
+  color: #36464e;
+  background-color: #17ffff;
+  border: none;
   padding: .8em 1.5em;
+  font-weight: bold;
   cursor: pointer;
 }
 
