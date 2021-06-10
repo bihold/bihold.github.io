@@ -1,0 +1,2 @@
+const illustrations=document.querySelectorAll("[data-ill-name]"),activeIllustrationClassName="hero-illustration-image__display";let currentActiveIllustration=-1;function changeIllustration(){currentActiveIllustration++,currentActiveIllustration>illustrations.length-1&&(currentActiveIllustration=0),illustrations.forEach(((t,l)=>{l===currentActiveIllustration?t.classList.add(activeIllustrationClassName):t.classList.remove(activeIllustrationClassName)}))}changeIllustration(),setInterval(changeIllustration,5e3);
+//# sourceMappingURL=../maps/main.js.map
